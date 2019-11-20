@@ -4,6 +4,8 @@ import requests
 from django.shortcuts import render
 from bs4 import BeautifulSoup
 from . import models
+
+
 BASE_CRAIGSLIST_URL = 'https://losangeles.craigslist.org/search/?query={}'
 BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
 
